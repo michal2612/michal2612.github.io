@@ -1,0 +1,22 @@
+body {
+    background-color: #4e4e4e;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+.badges-section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2px;
+}
+.front-end {
+    border: 1px solid red;
+}
+.tech-tools {
+    border: 1px solid green; 
+}
