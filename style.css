@@ -1,22 +1,82 @@
-body {
-    background-color: #4e4e4e;
+html, body {
+    height: 100%;
+    margin: 0;
     color: white;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    transition: all 0.2s ease;
 }
-.badges-section {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 2px;
+
+/*
+    **************************************
+    flex-box-container-hello-world PROPERTIES
+    **************************************
+*/
+#language-button-div {
+    margin-left: auto;
 }
-.front-end {
-    border: 1px solid red;
+#language-button {
+    background-color: transparent;
+    outline: none;
+    font-size: 2vw;
+    margin-right: auto;
 }
-.tech-tools {
-    border: 1px solid green; 
+
+.header-text {
+    font-size: 3.5vw;
+}
+
+.flex-box-container-hello-world {
+    background-color: #240750;
+    height: 45%;
+}
+.flex-box-container-hello-world:hover {
+    background-color: #22074c;
+    transition: inherit;
+}
+
+/*
+    **************************************
+    flex-box-container-about-me PROPERTIES
+    **************************************
+*/
+
+.flex-box-container-about-me {
+    background-color: #344C64;
+    height: 25%;
+}
+.flex-box-container-about-me:hover {
+    background-color: #31485f;
+    transition: inherit;
+}
+
+/*
+    **************************************
+    flex-box-container-technologies PROPERTIES
+    **************************************
+*/
+.flex-box-container-technologies {
+    background-color: #577B8D;
+    height: 18%;
+}
+.flex-box-container-technologies:hover {
+    background-color: #537586;
+    transition: inherit;
+}
+/*
+    **************************************
+    flex-box-container-social PROPERTIES
+    **************************************
+*/
+.flex-box-container-social {
+    background-color: #57A6A1;
+    height: 12%;
+}
+.flex-box-container-social:hover {
+    background-color: #539e99;
+    transition: inherit;
+}
+.badge {
+    margin-top: 5px;
+    margin-left: 5px;
 }
